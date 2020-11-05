@@ -8,7 +8,7 @@
     }],
   "display": "standalone",
   "scope": "",
-  "start_url": "/gl/PWA/URL.html",
+  "start_url": "gl/PWA/URL.html",
   "orientation": "portrait",
   "theme_color": "#fabc1c",
   "background_color": "#eaeaea"
