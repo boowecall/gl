@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> PWA Compat</title>
+  <meta name="viewport" content="initial-scale=1 viewport-fit=cover"> 
+  
+  <link id="reb" rel="manifest" href="https://boowecall.github.io/gl/PWA/manifest-Web.json" crossorigin="anonymous" ariaKeyShortcuts="true"/>
+  
+  <style>
+    html {
+      overflow: visible;
+      
+      margin: 0;
+      padding: 0;
+      border-top: 10px solid red;
+    }  
+  </style>
+  
+</head>
+<body>
+
+
+<script> 
+(new function(){
+  var isw = "data:text/javascript, self.addEventListener('fetch', function(){})";
+   
+    if (navigator.serviceWorker) { 
+    
+navigator.serviceWorker.register();     
+top.fetch();
+           
+    }
+    
+});
+  </script>
+</body>
+</html>
