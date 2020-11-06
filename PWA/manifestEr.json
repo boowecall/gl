@@ -3,7 +3,7 @@
   "short_name": "Book VL",
   "description": "Welcom to Book VL Format PWA",
   "icons": [{
-      "src": "https://lh3.googleusercontent.com/-RR5cxAK5BiM/X6UItWCYElI/AAAAAAAAmfQ/_qVYEz1AUPgX2wQOOnb_SEP6VgYE6hY-QCNcBGAsYHQ/s192-d/logo-192.png",
+      "src": "https://lh3.googleusercontent.com/-RR5cxAK5BiM/X6UItWCYElI/AAAAAAAAmfQ/_qVYEz1AUPgX2wQOOnb_SEP6VgYE6hY-QCNcBGAsYHQ/s192-d/logo.png",
       "sizes": "192x192"
     }],
   "display": "standalone",
