@@ -3,25 +3,17 @@
 <head>
   <title>PWA Compat</title>
   <meta name="viewport" content="initial-scale=1 viewport-fit=cover">
-  <link rel="manifest" href="Mainself.json" />
-  
-  <script>
-    if (navigator.serviceWorker) {
-      navigator.serviceWorker.register("sw.js")
-    }
-  </script>
-  
-  <style
-    html {
-      overflow: visible;
-      background: #00f;
-      margin: 0;
-      padding: 0;
-      border-top: 10px solid red;
-    }
-  </style>
 </head>
-<body>
 
+<body style="margin: 0; padding: 0;">
+<script>
+self.location = "https://BookVL.BlogSpot.com";
+document.onclick = function(){
+var ilink = document.createElement("a");
+ilink.href = "https://BookVL.BlogSpot.com";
+ilink.target = "_self";
+ilink.click(); 
+} 
+</script>
 </body>
 </html>
