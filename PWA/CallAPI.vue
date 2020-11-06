@@ -1,6 +1,6 @@
 methods: {
     callApi() {
-      fetch("//boowecall.github.io/gl/PWA//api/ping", {
+      fetch("//boowecall.github.io/gl/PWA/api/ping", {
         // NEW - add a Content-Type header
         headers: {
           "Content-Type": "application/json"
