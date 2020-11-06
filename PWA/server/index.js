@@ -2,7 +2,7 @@ const express = require("express");
 const debug = require("debug")("server");
 
 const app = express();
-const port = process.env.SERVER_PORT || http://boowecall.github.io;
+const port = process.env.SERVER_PORT;
 
 app.use(function(req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
