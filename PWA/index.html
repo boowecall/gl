@@ -7,10 +7,16 @@
   
   <link id="reb" rel="manifest" href="manifestEr.json"/>
   
+<script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register(
+      "sw.js")
+    }
+  </script>
+
   <style>
     html {
-      overflow: visible;
-      
+      overflow: visible;      
       margin: 0;
       padding: 0;
       border-top: 10px solid red;
@@ -21,18 +27,6 @@
 <body>
 
 
-<script> 
-(new function(){
-  var isw = "data:text/javascript, self.addEventListener('fetch', function(){})";
-   
-    if (navigator.serviceWorker) { 
-    
-navigator.serviceWorker.register("sw.js");     
 
-           
-    }
-    
-});
-  </script>
 </body>
 </html>
