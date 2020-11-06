@@ -3,7 +3,7 @@
   "short_name": "Book VL",
   "description": "Welcom to Book VL",
   "icons": [{
-      "src": "https://lh3.googleusercontent.com/-V9aD8wsz1dw/X6P4KADg5oI/AAAAAAAAme4/C2kA-HWS6E0qmUTndc5cqt8kkD8KBvk0QCNcBGAsYHQ/s192-d/logo-192.png",
+      "src": "https://lh3.googleusercontent.com/-lBeO04CNELI/X6T5VZhYI7I/AAAAAAAAmfA/fqWmo3nUO9MluWCQbwXMswsrVMurd4rwwCNcBGAsYHQ/s192-d/logo-192.png",
       "sizes": "192x192"
     }],
   "display": "standalone",
