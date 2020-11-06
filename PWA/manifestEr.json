@@ -8,7 +8,7 @@
     }],
   "display": "standalone",
   "scope": "",
-  "start_url": "https://bookvl.blogspot.com",
+  "start_url": "PWA.html",
   "orientation": "portrait",
   "theme_color": "#fabc1c",
   "background_color": "#eaeaea"
