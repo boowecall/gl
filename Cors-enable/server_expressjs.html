@@ -1,0 +1,28 @@
+---
+layout: default
+title: enable cross-origin resource sharing
+---
+
+	<div class="container">
+		<section>
+		<h1>CORS on ExpressJS</h1>
+
+<p>
+				In your <a href="http://expressjs.com/">ExpressJS</a> app on <a href="http://nodejs.org/">node.js</a>, do the following with your routes:
+			</p>
+			<pre class="code">app.use(function(req, res, next) {
+  res.header("Access-Control-Allow-Origin", "YOUR-DOMAIN.TLD"); // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
+
+app.get('/', function(req, res, next) {
+  // Handle the get for this route
+});
+
+app.post('/', function(req, res, next) {
+ // Handle the post for this route
+});</pre>
+
+		</section>
+	</div>

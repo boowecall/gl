@@ -1,0 +1,23 @@
+---
+layout: default
+title: enable cross-origin resource sharing
+---
+
+	<div class="container">
+		<section>
+		<h1>CORS on Tomcat</h1>
+		<p>Apache Tomcat includes support for CORS (Starting from Tomcat version 7.0.41). The full documentation can be found here: <a href="http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#CORS_Filter">http://tomcat.apache.org/tomcat-7.0-doc/config/filter.html#CORS_Filter</a></p>
+		<p>Here is an example from those docs that demonstrates a minimal CORS configuration:</p>
+		<pre class="code">
+&lt;filter&gt;
+  &lt;filter-name&gt;CorsFilter&lt;/filter-name&gt;
+  &lt;filter-class&gt;org.apache.catalina.filters.CorsFilter&lt;/filter-class&gt;
+&lt;/filter&gt;
+&lt;filter-mapping&gt;
+  &lt;filter-name&gt;CorsFilter&lt;/filter-name&gt;
+  &lt;url-pattern&gt;/*&lt;/url-pattern&gt;
+&lt;/filter-mapping&gt;
+		</pre>
+		</section>
+	</div>
+
