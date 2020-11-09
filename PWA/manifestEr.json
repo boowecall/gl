@@ -5,9 +5,6 @@
   "icons": [{
       "src": "https://lh3.googleusercontent.com/-RR5cxAK5BiM/X6UItWCYElI/AAAAAAAAmfQ/_qVYEz1AUPgX2wQOOnb_SEP6VgYE6hY-QCNcBGAsYHQ/s192-d/logo.png",
       "sizes": "192x192"
-    },{
-      "src": "https://lh3.googleusercontent.com/-xgiZwvEOieA/X6jzNgrQZUI/AAAAAAAAmfk/peRA9TdvNdEK7KzQzYy2sOTO-TvJ5nNMACNcBGAsYHQ/s256/Logo.png",
-      "sizes": "256x256"
     }],
   "display": "standalone",
   "scope": "",
