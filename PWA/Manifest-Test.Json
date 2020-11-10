@@ -11,6 +11,7 @@
   "scope": "",
   "start_url": "Url.html",
   "orientation": "portrait",
+  "package_Name", "package.json"
   "theme_color": "#fabc1c",
   "background_color": "#FFFFFF"
 }
