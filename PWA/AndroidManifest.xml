@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:versionCode="2" android:versionName="2" package="org.chromium.webapk.af6980472e5b30ec0" platformBuildVersionCode="30" platformBuildVersionName="11">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29" />
+	<application android:allowBackup="false" android:icon="@mipmap/ic_launcher" android:label="@string/short_name" android:supportsRtl="true">
+		<activity android:excludeFromRecents="true" android:name="org.chromium.webapk.shell_apk.h2o.H2OTransparentLauncherActivity" android:relinquishTaskIdentity="true" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.VIEW" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.BROWSABLE" />
+				<data android:host="boowecall.github.io" android:pathPrefix="/gl/PWA/" android:scheme="https" />
+			</intent-filter>
+			<intent-filter>
+				<action android:name="android.nfc.action.NDEF_DISCOVERED" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<data android:host="boowecall.github.io" android:pathPrefix="/gl/PWA/" android:scheme="https" />
+			</intent-filter>
+		</activity>
+		<activity android:name="org.chromium.webapk.shell_apk.h2o.H2OOpaqueMainActivity" android:relinquishTaskIdentity="true" android:theme="@style/SplashTheme">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+		</activity>
+		<activity android:launchMode="singleTask" android:name="org.chromium.webapk.shell_apk.h2o.SplashActivity" android:theme="@style/SplashTheme" />
+		<provider android:authorities="org.chromium.webapk.af6980472e5b30ec0.SplashContentProvider" android:exported="true" android:name="org.chromium.webapk.shell_apk.h2o.SplashContentProvider" />
+		<activity android:enabled="false" android:excludeFromRecents="true" android:name="org.chromium.webapk.shell_apk.h2o.H2OMainActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<meta-data android:name="android.app.shortcuts" android:resource="@xml/shortcuts" />
+		</activity>
+		<meta-data android:name="org.chromium.webapk.shell_apk.shellApkVersion" android:value="122" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.runtimeHost" android:value="com.android.chrome" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.runtimeHostApplicationName" android:value="Chrome" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.startUrl" android:value="https://bookVL.blogspot.com/index.html" />
+
+		<meta-data android:name="org.chromium.webapk.shell_apk.scope" android:value="https://bookVL.blogspot.com" />
+
+		<meta-data android:name="org.chromium.webapk.shell_apk.displayMode" android:value="fullscreen" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.orientation" android:value="portrait" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.themeColor" android:value="-345060L" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.backgroundColor" android:value="-1L" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.defaultBackgroundColorId" android:resource="@color/webapp_default_bg" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.iconId" android:resource="@mipmap/app_icon" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.splashId" android:resource="@drawable/splash_icon" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.isSplashIconMaskableBooleanId" android:resource="@bool/is_splash_icon_maskable" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.distributor" android:value="browser" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.iconUrlsAndIconMurmur2Hashes" android:value="https://lh3.googleusercontent.com/-TYR4uQaepHo/X6lqanCosgI/AAAAAAAAmfs/hKMdloBoad4W8p9sawuFn-S6Wn95C48qwCNcBGAsYHQ/s192-d/logo.png 6624290527846170862" />
+		<meta-data android:name="org.chromium.webapk.shell_apk.webManifestUrl" android:value="https://boowecall.github.io/gl/PWA/Mainself.json" />
+		<service android:exported="true" android:name="org.chromium.webapk.shell_apk.WebApkServiceFactory">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.WEBAPK_API" />
+			</intent-filter>
+		</service>
+		<service android:exported="true" android:name="org.chromium.webapk.shell_apk.IdentityService">
+			<intent-filter>
+				<action android:name="org.webapk.IDENTITY_SERVICE_API" />
+			</intent-filter>
+		</service>
+	</application>
+</manifest>
