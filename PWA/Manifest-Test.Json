@@ -1,0 +1,16 @@
+{
+  "name": "Book VL Format PWA",
+  "short_name": "Book VL",
+  "description": "Welcom to Book VL Format PWA",
+  "icons": [{
+      "src": "https://lh3.googleusercontent.com/-TYR4uQaepHo/X6lqanCosgI/AAAAAAAAmfs/hKMdloBoad4W8p9sawuFn-S6Wn95C48qwCNcBGAsYHQ/s192-d/logo.png",
+      "sizes": "192x192"
+    }],
+  "webManifest_Url": "ManifestEr.Json",
+  "display_mode": "fullscreen",
+  "scope": "",
+  "start_url": "Url.html",
+  "orientation": "portrait",
+  "theme_color": "#fabc1c",
+  "background_color": "#FFFFFF"
+}
