@@ -7,8 +7,8 @@
       "sizes": "192x192"
     }],
   "display": "standalone",
-  "scope": "http://bookvl.blogspot.com",
-  "start_url": "/index.html",
+  "scope": "https://bookvl.blogspot.com/",
+  "start_url": "index.html",
   "orientation": "portrait",
   "theme_color": "#fabc1c",
   "background_color": "#FFFFFF"
